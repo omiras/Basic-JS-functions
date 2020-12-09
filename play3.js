@@ -70,8 +70,8 @@ console.log("Suma 1", res)
          return resultado_resta 
      }
      
-     resta(1, 2)
-     console.log(resultado_resta) // Va a dar 'undefined'. En este punto el script no tiene ni idea donde esta definida la variable 'resultado_resta'; pues no está definida en su ámbito o scope
+     let foo = resta(1, 2)
+     console.log(foo) // Va a dar 'undefined'. En este punto el script no tiene ni idea donde esta definida la variable 'resultado_resta'; pues no está definida en su ámbito o scope
      
 
 

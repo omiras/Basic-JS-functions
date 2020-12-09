@@ -12,7 +12,7 @@ console.log("Me he convertido en un: " + typeof(soyUnNumero))
 // Existe una 'variable' global en JavaScript llamada
 // 'console'.
 // Dicha variable tiene una función, de nombre 'log'
-// La función tiene uno o varios parámetros de entrada.
+// La función tiene uno o varios parametros de entrada.
 // En el ejemplo, le pasamos UN parámetro a la función. El VALOR de la variable 'myText'
 let myText = 'Hola! Hola!';
 console.log(myText);
